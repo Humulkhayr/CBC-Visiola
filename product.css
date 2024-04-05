@@ -1,0 +1,47 @@
+*{padding: 0;
+ margin: 0;
+ box-sizing: boader-box;
+ 
+}
+#product-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+#product-left{
+    width: 100%;
+    flex: 0.55;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    
+
+}
+#product-right{
+    height: 100%;
+    flex: 0.45;
+
+}
+
+.image-container{
+    background-color: blue;
+    height: 500px;
+}
+
+.image-container img{
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+#product-right h1{
+    front-size: 90px
+}
+.star{
+    display: flex; 23 review
+    width: 15px;
+    height: 15px;
+}
+{}
